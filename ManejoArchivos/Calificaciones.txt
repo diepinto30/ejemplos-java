@@ -1,0 +1,2 @@
+Diego;Pinto;10;9
+Camila;Pinto;10;10

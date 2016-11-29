@@ -6,7 +6,7 @@ package escrituraArchivos;
 // fines educativos
 // Uso de la clase Formatter para escribir datos en un archivo de texto.
 import java.io.FileNotFoundException;
-import java.lang.SecurityException;
+import java.lang.SecurityException; 
 import java.util.Formatter;
 import java.util.FormatterClosedException;
 import java.util.NoSuchElementException;
@@ -19,7 +19,7 @@ public class ArchivoTexto {
     // permite al usuario abrir el archivo
     public void abrir_archivo() {
         try {
-            salida = new Formatter("clientes2.txt");
+            salida = new Formatter("ejemplo-archivo.txt");
         } // fin de try
         catch (SecurityException securityException) {
             System.err.println(
